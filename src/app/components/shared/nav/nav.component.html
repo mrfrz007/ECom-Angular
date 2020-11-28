@@ -1,0 +1,10 @@
+<div class="d-flex flex-column navbar navbar-light bg-dark flex-md-row align-items-center p-3 px-md-4 mb-3 bg-black border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">
+    <app-header></app-header>
+  </h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-light" [routerLink]="['/shop']">Shop</a>
+    <a   class="p-2 text-light" [routerLink]="['/cart']"><span><img style="width: 30px;height: 30px;" src="https://cdn4.iconfinder.com/data/icons/business-and-e-commerce/64/Shopping_cart-128.png">Cart({{count}})</span></a>
+  </nav>
+</div>
+
