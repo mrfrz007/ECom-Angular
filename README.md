@@ -5,6 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+install json server `npm install json-server` and then run command `json-server --watch  db.json` to start moke api to use it as data base.
 
 ## Code scaffolding
 
